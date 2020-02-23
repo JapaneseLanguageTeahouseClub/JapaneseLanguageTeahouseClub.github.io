@@ -291,3 +291,8 @@ a:link,
 a:visited {
   text-decoration: none;
 }
+
+.custom_font_size_1 {
+  /* original font-size: 3.5rem */
+  font-size: 3rem;
+}
