@@ -296,3 +296,16 @@ a:visited {
   /* original font-size: 3.5rem */
   font-size: 3rem;
 }
+
+.copyright-size {
+  font-size: 0.85rem;
+}
+
+/* Extra Space */
+.extra_space {
+  margin-bottom: 70px !important;
+}
+
+.extra_space-2 {
+  margin-bottom: 30px !important;
+}

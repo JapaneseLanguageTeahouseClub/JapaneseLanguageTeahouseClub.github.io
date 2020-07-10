@@ -7,8 +7,8 @@ section#card-new {
 
 html,
 section#card-new {
-  font-size: 10px;
-  font-family: "Roboto", sans-serif;
+  font-size: 10px !important;
+  font-family: "Roboto", sans-serif !important;
 }
 
 body,
@@ -16,24 +16,24 @@ section#card-new {
   overflow-x: hidden;
 }
 
-a {
+a.team {
   text-decoration: none;
   color: #fff;
 }
 
 section#card-new {
-  padding: 10rem 0;
+  padding: 10rem 0 !important;
   background-color: #fff;
 }
 
 .heading-new {
   text-transform: uppercase;
-  font-size: 3.5rem;
+  font-size: 3.5rem !important;
   letter-spacing: 3px;
   margin-right: -3px;
   margin-bottom: 5rem;
   text-align: center;
-  color: #333;
+  color: #333 !important;
   position: relative;
 }
 
@@ -86,9 +86,9 @@ section#card-new {
 }
 
 .card-new h1 {
-  font-size: 2.5rem;
-  color: #333;
-  margin: 1.5rem 0;
+  font-size: 2.5rem !important;
+  color: #333 !important;
+  margin: 1.5rem 0 !important;
 }
 
 .job-title-new {
@@ -157,6 +157,7 @@ section#card-new {
   color: #dd4b39;
 }
 
+/* Change later ? */
 .fa-facebook-square:hover,
 .fa-twitter-square:hover,
 .fa-instagram:hover,
@@ -177,6 +178,7 @@ section#card-new {
     transition: transform 0.5s;
   }
 
+  /* Change later ? */
   @keyframes fadeIn {
     from {
       opacity: 0;
@@ -187,17 +189,17 @@ section#card-new {
   }
 
   .card-new:nth-child(1) {
-    animation: fadeIn 0.5s 0.5s backwards;
+    animation: fadeIn 0.25s 0.25s backwards;
   }
 
   .card-new:nth-child(2) {
-    animation: fadeIn 0.5s 1s backwards;
+    animation: fadeIn 0.25s 0.5s backwards;
   }
   .card-new:nth-child(3) {
-    animation: fadeIn 0.5s 1.5s backwards;
+    animation: fadeIn 0.25s 0.75s backwards;
   }
   .card-new:nth-child(4) {
-    animation: fadeIn 0.5s 2s backwards;
+    animation: fadeIn 0.25s 1s backwards;
   }
 
   .card-new:hover {
